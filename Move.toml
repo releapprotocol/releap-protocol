@@ -1,0 +1,14 @@
+[package]
+name = "ReleapSocial"
+version = "0.1.0"
+
+#devnet
+published-at = "0xd078b41fe4dde203c472c48ae0c746261f7c0d1a264425c8dfc97ecc22d275b0"
+
+[dependencies.Sui]
+git = "https://github.com/MystenLabs/sui.git"
+subdir = "crates/sui-framework/packages/sui-framework"
+rev = "devnet-0.31.0"
+
+[addresses]
+releap_social = "0x0"
